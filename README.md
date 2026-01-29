@@ -11,7 +11,7 @@ The project follows a clear pipeline:
 ---
 
 ## 📂 Project Structure
-
+```
 fake_real_news_ML/
 ├── data/
 │ ├── Fake/
@@ -32,7 +32,7 @@ fake_real_news_ML/
 ├── app.py # FastAPI application
 ├── requirements.txt
 └── README.md
-
+```
 ---
 
 ## 🗂 Datasets
