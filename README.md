@@ -85,7 +85,7 @@ from fastapi.responses import HTMLResponse
 from fastapi.staticfiles import StaticFiles
 
 ```
-
+---
 🌐 Web Application
 
 Framework: FastAPI
@@ -99,7 +99,7 @@ The user enters a news article and receives a prediction:
 Fake
 
 Real
-
+---
 ⚙️ Installation
 
 git clone https://github.com/AkramLamfaddel/fake-news-detector.git
@@ -107,7 +107,7 @@ cd fake_real_news_ML
 python -m venv venv
 venv\Scripts\activate
 pip install -r requirements.txt
-
+---
 ▶️ Run the Project
 
 Step 1: Concatenate datasets
@@ -128,7 +128,7 @@ Step 4: Run the web app
 
 Open your browser:
 
-``` http://127.0.0.1:8000 ```
+ http://127.0.0.1:8000 
 
 🚀 Future Improvements
 
