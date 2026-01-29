@@ -99,7 +99,9 @@ The user enters a news article and receives a prediction:
 Fake
 
 Real
+
 ---
+
 ⚙️ Installation
 
 git clone https://github.com/AkramLamfaddel/fake-news-detector.git
@@ -107,6 +109,7 @@ cd fake_real_news_ML
 python -m venv venv
 venv\Scripts\activate
 pip install -r requirements.txt
+
 ---
 ▶️ Run the Project
 
