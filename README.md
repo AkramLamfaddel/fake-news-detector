@@ -84,6 +84,8 @@ from fastapi import FastAPI, Request
 from fastapi.responses import HTMLResponse
 from fastapi.staticfiles import StaticFiles
 
+```
+
 🌐 Web Application
 
 Framework: FastAPI
@@ -110,23 +112,23 @@ pip install -r requirements.txt
 
 Step 1: Concatenate datasets
 
-python model/concat.py
+```python model/concat.py```
 
 Step 2: Clean text data
 
-python model/cleanNLP.py
+```python model/cleanNLP.py```
 
 Step 3: Train the model
 
-python model/train.py
+```python model/train.py```
 
 Step 4: Run the web app
 
-uvicorn app:app --reload
+```uvicorn app:app --reload```
 
 Open your browser:
 
-http://127.0.0.1:8000
+``` http://127.0.0.1:8000 ```
 
 🚀 Future Improvements
 
