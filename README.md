@@ -19,23 +19,19 @@ fake_real_news_ML/
 │ ├── True/
 │ │ └── True.csv
 │ └── news.csv # Generated after concatenation
-│
 ├── model/
 │ ├── concat.py # Merge Fake & True datasets
 │ ├── cleanNLP.py # Text cleaning & preprocessing
 │ └── train.py # Model training
-│
 ├── static/
 │ ├── img/
 │ │ └── codiia.png
 │ ├── index.css
 │ ├── index.html
 │ └── script.js
-│
 ├── app.py # FastAPI application
 ├── requirements.txt
 └── README.md
-
 
 ---
 
